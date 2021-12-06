@@ -1,0 +1,43 @@
+$color: #037ef3;
+$background-color: #f3f4f7;
+$hr_background-color: #48a9c5;
+
+main {
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+
+  .left {
+    width: 270px;
+    padding: 20px 20px;
+    background-color: $background-color;
+    float: left;
+    color: $color;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+    cursor: pointer;
+  }
+
+  .container {
+    width: 1280px;
+    padding: 20px 20px;
+    background-color: $background-color;
+    margin: 20px auto;
+    color: $color;
+    font-size: 20px;
+    font-weight: bold;
+
+    hr {
+      margin: 20px 0;
+      height: 3px;
+      background-color: $hr_background-color;
+    }
+
+    .open_btn {
+      cursor: pointer;
+      width: 400px;
+      padding: 15px;
+    }
+  }
+}

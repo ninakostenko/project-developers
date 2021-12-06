@@ -1,0 +1,13 @@
+$color: white;
+$background-color: #48a9c5;
+
+.header {
+  width: 100%;
+  background-color: $background-color;
+
+  .title {
+    padding: 20px;
+    font-size: 40px;
+    color: $color;
+  }
+}
